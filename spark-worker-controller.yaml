@@ -31,12 +31,12 @@ spec:
             requests:
               cpu: 100m
               memory: "100Mi"
-          volumeMounts:
-            - mountPath: /opt/spark/work/
-              name: work
-      volumes:
-        - name: work
-          hostPath:
-            # directory location on host
-            path: /mnt/spark-worker
+#           volumeMounts:
+#             - mountPath: /opt/spark/work/
+#               name: work
+#       volumes:
+#         - name: work
+#           hostPath:
+#             # directory location on host
+#             path: /mnt/spark-worker
 
